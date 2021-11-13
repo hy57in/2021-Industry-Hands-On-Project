@@ -1,8 +1,17 @@
 # 2021-Industry-Hands-On-Project
-Online Pizza Ordering System
 
-[온라인 피자 주문 시스템]
-https://nevonprojects.com/online-pizza-ordering-system/
+## Topic
+[Online Pizza Ordering System](https://nevonprojects.com/online-pizza-ordering-system/)
+
+## Members
+|이름|GitHub|역할|
+|------|---|---|
+|김효진|[@hy57in](https://github.com/hy57in)|-|
+|김소현|[@thguss](https://github.com/thguss)|-|
+|정설희|[@xxeol2](https://github.com/xxeol2)|-|
+|조현민|[@HnM97](https://github.com/HnM97)|-|
+|채희선|[@chaehuiseon](https://github.com/chaehuiseon)|-|
+
 
 Requirement Gathering
 
