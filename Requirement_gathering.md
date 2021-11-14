@@ -26,7 +26,7 @@
 |REQ-16|이용자는 자신이 작성한 피드백을 수정할 수 있다.||
 |REQ-17|이용자는 좋아요 순서로 메뉴를 정렬할 수 있다.||
 
-### 2. Admin Requirement
+#### 2. Admin Requirement
 |identifier|story|size|
 |------|---|---|
 |REQ-18|관리자는 관리자 계정으로 서비스에 로그인 할 수 있다.||
