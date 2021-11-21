@@ -15,7 +15,11 @@
 |조현민|[@HnM97](https://github.com/HnM97)||
 |채희선|[@chaehuiseon](https://github.com/chaehuiseon)||
 
-## Problem statement
+## Shared document
+[docs](https://docs.google.com/document/d/1b8LA6jXomMK3xPr2sh1_XxCwibw56-0ldWEgzYrpA0I/edit)
+[spread sheet](https://docs.google.com/spreadsheets/d/1vsu7URLWPv53WTsdFkEjsMZHs8vbxEwoJTJh-khbiA0/edit#gid=0)
+
+## Problem statements
 ### The Problem
 1. 버거를 주문할 때 주문대기 시간이 얼마나 걸리는지 알 수 없다.
 2. 매장의 비정기적인 휴무일을 알 수 없다 (현재 매장이 영업하는 중인지 알 수 없다.)
