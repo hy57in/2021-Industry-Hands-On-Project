@@ -20,10 +20,9 @@
 |No|term|topic|meeting logs|results|feedback|
 |------|---|---|---|---|---|
 |0|21.11.15~21.11.21|프로젝트 주제 설정, 준비|[11/14](./meeting-logs/21-11-14.md), [11/21](./meeting-logs/21-11-21.md)|[Requirement Gathering](./Requirement_gathering.md)|[1주차 피드백](./feedback/21-11-22.md)|
-|1|21.11.22~21.11.28|||||
-|2|21.11.29~21.12.05|||||
-|3|21.12.06~21.12.12|||||
-|4|21.12.13~21.12.19|||||
+|1|21.11.22~21.12.01|||||
+|2|21.12.02~21.12.12|||||
+|3|21.12.13~|||||
 ## Shared document
 [docs](https://docs.google.com/document/d/1b8LA6jXomMK3xPr2sh1_XxCwibw56-0ldWEgzYrpA0I/edit)
 [spread sheet](https://docs.google.com/spreadsheets/d/1vsu7URLWPv53WTsdFkEjsMZHs8vbxEwoJTJh-khbiA0/edit#gid=0)
