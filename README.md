@@ -1,5 +1,6 @@
 # 2021-Industry-Hands-On-Project
 산업체 핸즈온 프로젝트 01분반
+담당 : 김명호 교수님
 ## Topic
 온라인 카우버거 주문 시스템
 
@@ -15,6 +16,14 @@
 |조현민|[@HnM97](https://github.com/HnM97)||
 |채희선|[@chaehuiseon](https://github.com/chaehuiseon)||
 
+## Sprint
+|No|term|topic|meeting logs|results|feedback|
+|------|---|---|---|---|---|
+|0|21.11.15~21.11.21|프로젝트 주제 설정, 준비|[11/14](./meeting-logs/21-11-14.md), [11/21](./meeting-logs/21-11-21.md)|[Requirement Gathering](./Requirement_gathering.md)|[1주차 피드백](./feedback/21-11-22.md)|
+|1|21.11.22~21.11.28|||||
+|2|21.11.29~21.12.05|||||
+|3|21.12.06~21.12.12|||||
+|4|21.12.13~21.12.19|||||
 ## Shared document
 [docs](https://docs.google.com/document/d/1b8LA6jXomMK3xPr2sh1_XxCwibw56-0ldWEgzYrpA0I/edit)
 [spread sheet](https://docs.google.com/spreadsheets/d/1vsu7URLWPv53WTsdFkEjsMZHs8vbxEwoJTJh-khbiA0/edit#gid=0)
