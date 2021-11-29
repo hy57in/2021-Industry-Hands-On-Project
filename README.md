@@ -83,5 +83,3 @@
 ## Requirement Gathering
 [Requirement Gathering](./Requirement_gathering.md)
 
-
-![USECASE6](https://user-images.githubusercontent.com/80442377/143823522-d4fd2918-8923-4ce2-b500-56cc266d3dd3.jpeg)
