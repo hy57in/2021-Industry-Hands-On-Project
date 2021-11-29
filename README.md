@@ -20,7 +20,7 @@
 |No|term|topic|meeting logs|results|feedback|
 |------|---|---|---|---|---|
 |0|21.11.15~21.11.21|프로젝트 주제 설정, 준비|[11/14](./document/meeting-logs/21-11-14.md), [11/21](./document/meeting-logs/21-11-21.md)|[Requirement Gathering](./document/sprint1/Requirement_gathering.md)|[1주차 피드백](./document/feedback/21-11-22.md)|
-|1|21.11.22~21.12.01|Product backlog 작성, Spring backlog 작성, Usecase Diagram 작성, UI Mock up|[11/24](./document/meeting-logs/21-11-24.md), [11/27](./document/meeting-logs/21-11-27.md), [11/29](./document/meeting-logs/21-11-29.md)|[Product backlog](./document/sprint1/product_backlog.md),[Spring backlog](./document/sprint1/sprint_backlog.md), [Usecase diagram](./document/sprint1/Usecase.md)||||
+|1|21.11.22~21.12.01|Product backlog 작성, Spring backlog 작성, Usecase Diagram 작성, UI Mock up|[11/24](./document/meeting-logs/21-11-24.md), [11/27](./document/meeting-logs/21-11-27.md), [11/29](./document/meeting-logs/21-11-29.md)|[Product backlog](./document/sprint1/product_backlog.md),[Spring backlog](./document/sprint1/sprint_backlog.md), [Usecase diagram](./document/sprint1/Usecase.md), Mock up||||
 |2|21.12.02~21.12.12|||||
 |3|21.12.13~|||||
 ## Shared document
