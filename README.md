@@ -82,4 +82,3 @@
 
 ## Requirement Gathering
 [Requirement Gathering](./Requirement_gathering.md)
-![img](https://www.notion.so/Use-Case-3af333a37ec64ed5ad2a79f52a22efc4#ff07770b96a74bfd827893022735b088)
