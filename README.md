@@ -82,3 +82,6 @@
 
 ## Requirement Gathering
 [Requirement Gathering](./Requirement_gathering.md)
+
+
+<img width="600" alt="Screen Shot 2021-11-29 at 4 15 32 PM" src="https://user-images.githubusercontent.com/80442377/143824058-1f52560a-bcca-4751-9bbf-2e1c98b074a5.png">
