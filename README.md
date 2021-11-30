@@ -92,5 +92,5 @@
     나는 카우버거 직원이다. 점심 시간, 종강 시간 등 특정 시간에 많은 주문이 들어오는데, 온라인 시스템을 통해 **주문 정보를 미리 알 수 있다면 주문을 좀 더 효율적으로 처리할 수 있을 것 같다.**
 
 ## Requirement Gathering
-[Requirement Gathering](./Requirement_gathering.md)
+[Requirement Gathering](document/sprint1/Requirement_gathering.md)
 
