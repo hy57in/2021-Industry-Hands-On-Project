@@ -26,6 +26,7 @@
 ## Shared document
 [docs](https://docs.google.com/document/d/1b8LA6jXomMK3xPr2sh1_XxCwibw56-0ldWEgzYrpA0I/edit)
 [spread sheet](https://docs.google.com/spreadsheets/d/1vsu7URLWPv53WTsdFkEjsMZHs8vbxEwoJTJh-khbiA0/edit#gid=0)
+[Size, Sprint](https://docs.google.com/spreadsheets/d/10ZTpL3aTN9Uo2c-ht4bpbTm-GxoEuitIfzcvI71sTTg/edit#gid=0)
 
 ## Problem statements
 ### The Problem
