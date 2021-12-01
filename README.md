@@ -16,6 +16,13 @@
 |조현민|[@HnM97](https://github.com/HnM97)||
 |채희선|[@chaehuiseon](https://github.com/chaehuiseon)||
 
+## 1st Sprint SubGroups
+### A. 회원가입(UC-1) / 로그인(UC-2)
+- 담당자 : 김효진 / 정설희
+
+### B. 메뉴 조회(UC-3) / 메뉴 정보 확인(UC-4)
+- 담당자 : 조현민 / 채희선 / 김소현
+
 ## Sprint
 |No|term|topic|meeting logs|results|feedback|
 |------|---|---|---|---|---|
