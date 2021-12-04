@@ -1,7 +1,7 @@
-import React from 'react';
-import { Route, Switch } from 'react-router-dom';
-import Home from "home/Home"
-import Detail from "detail/Detail"
+import React from 'react'
+import { Route, Switch } from 'react-router-dom'
+import Home from 'home/Home'
+import Detail from 'detail/Detail'
 
 function App() {
   return (
@@ -9,11 +9,12 @@ function App() {
       <Route exact path="/">
         <Home />
       </Route>
+
       <Route path="/detail">
         <Detail />
       </Route>
-    </Switch> 
-  );
+    </Switch>
+  )
 }
 
-export default App;
+export default App

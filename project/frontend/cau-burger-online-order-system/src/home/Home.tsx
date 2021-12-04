@@ -1,13 +1,15 @@
-import React from 'react';
-import {Link} from 'react-router-dom'
+import React from 'react'
 
+import * as s from 'home/HomeStyled'
 const Home = () => {
-    return (
-        <div>
-            <h2>home</h2>
-            <Link to='detail'>detail</Link>
-        </div>
-    );
-};
+  return (
+    <div>
+      <s.TitleBar>
+        <s.TitleText>CAU BURGER</s.TitleText>
+      </s.TitleBar>
+      <s.ContentBox></s.ContentBox>
+    </div>
+  )
+}
 
-export default Home;
+export default Home
