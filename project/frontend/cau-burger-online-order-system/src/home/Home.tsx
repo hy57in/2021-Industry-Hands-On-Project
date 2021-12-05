@@ -4,9 +4,12 @@
 */
 
 import React from 'react'
+import { useState } from 'react'
 import Menu from 'home/menu/Menu'
 import * as s from 'home/HomeStyled'
 const Home = () => {
+  const [categoryNum, setCategoryNum] = useState(0)
+
   return (
     <div>
       <s.TitleBar>
@@ -22,7 +25,7 @@ const Home = () => {
           </s.OrderBox>
           <s.HistoryButton>주문내역</s.HistoryButton>
         </s.ButtonBar>
-        <Menu categoryNum={0} />
+        <Menu categoryNum={categoryNum} setCategoryNum={setCategoryNum} />
       </s.ContentBox>
     </div>
   )

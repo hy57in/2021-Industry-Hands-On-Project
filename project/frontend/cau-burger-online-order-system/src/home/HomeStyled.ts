@@ -1,3 +1,12 @@
+/**
+ * -- Naming 규칙 --
+ * 가로 한 줄은 Bar,
+ * 큰 구분은 Box,
+ * 카테고리 구분은 Tab,
+ * Box, Bar, Tab 밑에 필요 시 Text,
+ * Check 는 svg 넣을건데, 아직 안함
+ */
+
 import styled from 'styled-components'
 
 export const TitleBar = styled.div`
