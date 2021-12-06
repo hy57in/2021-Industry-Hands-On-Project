@@ -165,3 +165,6 @@
 ## USECASE TraceAbility
 
 ![image](https://user-images.githubusercontent.com/80442377/144795004-063b2140-042e-43ab-bf46-237c4ca60bc1.png)
+
+![image](https://user-images.githubusercontent.com/80442377/144796002-0c3e8f74-1ac6-429e-9a72-e13bebc7ca8c.png)
+
