@@ -5,9 +5,10 @@
  * ---> 미리 정의된 데이터를 가져오기로 함
  */
 
-import React from 'react'
-import * as s from 'home/HomeStyled'
+import * as s from 'pages/home/HomeStyled'
+
 import MenuCard from 'components/MenuCard'
+import React from 'react'
 
 interface MenuProps {
   categoryNum: number
