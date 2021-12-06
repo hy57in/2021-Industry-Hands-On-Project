@@ -168,3 +168,13 @@
 
 ![image](https://user-images.githubusercontent.com/80442377/144796002-0c3e8f74-1ac6-429e-9a72-e13bebc7ca8c.png)
 
+## Sprint1
+USECASE 1,2,3,4 => total SIZE : 46
+
+## Sprint2
+USECASE 5,6,8 => total SIZE : 19
+USECASE 15,10,11,12,16 => total SIZE : 17
+USECASE 9,13,14 => total SIZE : 22
+
+## Sprint2.5
+USECASE 7 => total SIZe : 17
