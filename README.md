@@ -166,7 +166,9 @@
 
 ![image](https://user-images.githubusercontent.com/80442377/144795004-063b2140-042e-43ab-bf46-237c4ca60bc1.png)
 
-![image](https://user-images.githubusercontent.com/80442377/144796002-0c3e8f74-1ac6-429e-9a72-e13bebc7ca8c.png)
+![image](https://user-images.githubusercontent.com/80442377/144797341-d4b36c73-f11c-4e3b-a1dd-a8eb6d6ef80b.png)
+
+위, 작업량(size)와 우선순위를 고려하여 아래와 같이 sprint를 분배하였다.
 
 ## Sprint1
 USECASE 1,2,3,4 => total SIZE : 46
