@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.4a06c4b2.chunk.js",
-    "main.js.map": "/static/js/main.4a06c4b2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.12ccadcb.js",
-    "runtime-main.js.map": "/static/js/runtime-main.12ccadcb.js.map",
-    "static/js/2.1300dc9d.chunk.js": "/static/js/2.1300dc9d.chunk.js",
-    "static/js/2.1300dc9d.chunk.js.map": "/static/js/2.1300dc9d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.1300dc9d.chunk.js.LICENSE.txt": "/static/js/2.1300dc9d.chunk.js.LICENSE.txt"
+    "main.css": "/2021-Industry-Hands-On-Project/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/2021-Industry-Hands-On-Project/static/js/main.4a06c4b2.chunk.js",
+    "main.js.map": "/2021-Industry-Hands-On-Project/static/js/main.4a06c4b2.chunk.js.map",
+    "runtime-main.js": "/2021-Industry-Hands-On-Project/static/js/runtime-main.ad3cc305.js",
+    "runtime-main.js.map": "/2021-Industry-Hands-On-Project/static/js/runtime-main.ad3cc305.js.map",
+    "static/js/2.78503881.chunk.js": "/2021-Industry-Hands-On-Project/static/js/2.78503881.chunk.js",
+    "static/js/2.78503881.chunk.js.map": "/2021-Industry-Hands-On-Project/static/js/2.78503881.chunk.js.map",
+    "index.html": "/2021-Industry-Hands-On-Project/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/2021-Industry-Hands-On-Project/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.78503881.chunk.js.LICENSE.txt": "/2021-Industry-Hands-On-Project/static/js/2.78503881.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.12ccadcb.js",
-    "static/js/2.1300dc9d.chunk.js",
+    "static/js/runtime-main.ad3cc305.js",
+    "static/js/2.78503881.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
     "static/js/main.4a06c4b2.chunk.js"
   ]
