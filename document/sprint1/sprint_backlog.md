@@ -50,6 +50,8 @@ req - 16 : 서비스 관리를 위해, 관리자는 관리자 계정으로 서�
 
 ### sub groub2
 
+진행중 git branch : [subgroup1](https://github.com/hy57in/2021-Industry-Hands-On-Project/tree/subgroup-1/project/frontend/cau-burger-online-order-system)
+
 문제 해결 : UC - 3 : 메뉴조회, UC -4 : 메뉴정보확인
 
 참여 : 조현민, 채희선, 김소현
