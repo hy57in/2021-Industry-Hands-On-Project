@@ -162,6 +162,11 @@
 ## Requirement Gathering
 [Requirement Gathering](document/sprint1/Requirement_gathering.md)
 
+## USECASE
+
+![image](https://user-images.githubusercontent.com/80442377/144810606-443f0729-8cb5-40b8-883b-bb287fce8d67.png)
+
+
 ## USECASE TraceAbility
 
 ![image](https://user-images.githubusercontent.com/80442377/144795004-063b2140-042e-43ab-bf46-237c4ca60bc1.png)
