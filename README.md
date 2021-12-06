@@ -173,6 +173,8 @@
 ## Sprint1
 USECASE 1,2,3,4 => total SIZE : 46
 
+[Sprint Backlog](https://github.com/hy57in/2021-Industry-Hands-On-Project/blob/main/document/sprint1/sprint_backlog.md)
+
 ## Sprint2
 USECASE 5,6,8 => total SIZE : 19
 USECASE 15,10,11,12,16 => total SIZE : 17
