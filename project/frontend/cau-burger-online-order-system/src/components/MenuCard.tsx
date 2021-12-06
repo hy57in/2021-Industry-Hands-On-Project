@@ -21,4 +21,5 @@ const MenuCard = ({ image, name, price }: MenuProps) => {
   )
 }
 
+
 export default MenuCard

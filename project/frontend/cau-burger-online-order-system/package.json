@@ -12,6 +12,7 @@
     "@types/react-dom": "^17.0.0",
     "@types/react-router-dom": "^5.3.2",
     "@types/styled-components": "^5.1.16",
+    "brace-expansion": "^2.0.1",
     "prettier": "^2.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
