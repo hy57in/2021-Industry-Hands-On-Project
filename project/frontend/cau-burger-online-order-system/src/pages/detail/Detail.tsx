@@ -4,13 +4,13 @@
  * 메뉴에서 메뉴정보를 props로 가져와야 함
  */
 
+import * as s from 'pages/detail/DetailStyled'
+
+import Counter from 'components/Counter'
+import { Link } from 'react-router-dom'
+import MenuImage from 'components/MenuImage'
 import React from 'react'
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
-import * as s from 'detail/DetailStyled'
-import MenuImage from 'components/MenuImage'
-import Counter from 'components/Counter'
-
 
 interface MenuInfo {
   image: string

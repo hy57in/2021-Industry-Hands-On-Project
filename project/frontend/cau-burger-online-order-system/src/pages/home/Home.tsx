@@ -3,10 +3,11 @@
   임시로 0 으로 해둠
 */
 
+import * as s from 'pages/home/HomeStyled'
+
+import Menu from 'pages/home/menu/Menu'
 import React from 'react'
 import { useState } from 'react'
-import Menu from 'home/menu/Menu'
-import * as s from 'home/HomeStyled'
 const Home = () => {
   const [categoryNum, setCategoryNum] = useState(0)
 
