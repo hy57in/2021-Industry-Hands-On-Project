@@ -16,7 +16,7 @@ const MenuCard = ({ image, name, price }: MenuProps) => {
     <s.CardBox>
       <s.CardImage src={image} />
       <s.CardText>{name}</s.CardText>
-      <s.CardText>${price}원</s.CardText>
+      <s.CardText>{price}원</s.CardText>
     </s.CardBox>
   )
 }

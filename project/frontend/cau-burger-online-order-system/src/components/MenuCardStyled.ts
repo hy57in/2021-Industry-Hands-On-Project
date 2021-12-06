@@ -18,5 +18,5 @@ export const CardText = styled.div`
   display: flex;
   justify-content: center;
   font-size: 1vw;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 `

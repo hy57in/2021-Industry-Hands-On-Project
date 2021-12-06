@@ -15,7 +15,7 @@ const Home = () => {
       <s.TitleBar>
         <s.TitleText>CAU BURGER</s.TitleText>
       </s.TitleBar>
-      <s.ContentBox>
+      <s.Container>
         <s.ButtonBar>
           <s.OrderBox>
             <s.OrderText>기본순</s.OrderText>
@@ -23,10 +23,14 @@ const Home = () => {
           <s.OrderBox>
             <s.OrderText>추천순</s.OrderText>
           </s.OrderBox>
-          <s.HistoryButton>주문내역</s.HistoryButton>
+          <s.HistoryButton>
+            <s.HistoryButtonText>주문내역</s.HistoryButtonText>
+          </s.HistoryButton>
         </s.ButtonBar>
-        <Menu categoryNum={categoryNum} setCategoryNum={setCategoryNum} />
-      </s.ContentBox>
+        <s.ContentBox>
+          <Menu categoryNum={categoryNum} setCategoryNum={setCategoryNum} />
+        </s.ContentBox>
+      </s.Container>
     </div>
   )
 }

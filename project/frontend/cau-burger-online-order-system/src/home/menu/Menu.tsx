@@ -55,10 +55,30 @@ const Menu = ({ categoryNum, setCategoryNum }: MenuProps) => {
   return (
     <>
       <s.CategoryBar>
-        <s.CategoryTab onClick={(e) => setCategoryNum(0)}>버거</s.CategoryTab>
-        <s.CategoryTab onClick={(e) => setCategoryNum(1)}>사이드</s.CategoryTab>
-        <s.CategoryTab onClick={(e) => setCategoryNum(2)}>디저트</s.CategoryTab>
+        <s.CategoryTitle>메뉴</s.CategoryTitle>
+        <s.CategoryTab
+          tabId={0}
+          categoryNum={categoryNum}
+          onClick={(e) => setCategoryNum(0)}
+        >
+          버거
+        </s.CategoryTab>
+        <s.CategoryTab
+          tabId={1}
+          categoryNum={categoryNum}
+          onClick={(e) => setCategoryNum(1)}
+        >
+          사이드
+        </s.CategoryTab>
+        <s.CategoryTab
+          tabId={2}
+          categoryNum={categoryNum}
+          onClick={(e) => setCategoryNum(2)}
+        >
+          디저트
+        </s.CategoryTab>
       </s.CategoryBar>
+      <s.Divider />
       <s.MenuBox>
         <MenuCard image={menu.image} name={menu.name} price={menu.price} />
         <MenuCard image={menu.image} name={menu.name} price={menu.price} />
