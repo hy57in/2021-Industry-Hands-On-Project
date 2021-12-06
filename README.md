@@ -164,29 +164,4 @@
 
 ## USECASE TraceAbility
 
-	size	UC-1	UC-2	UC-3	UC-4	UC-5	UC-6	UC-7	UC-8	UC-9	UC-10	UC-11	UC-12	UC-13	UC-14	UC-15	UC-16
-req-1	8	O															
-req-2	2		O														
-req-3	5			O													
-req-4	1										O						
-req-5	9				O												
-req-6	2					O											
-req-7	2					O											
-req-8	10				O												
-req-9	3				O		O										
-req-10	4						O										
-req-11	15							O									
-req-12	2							O									
-req-13	6			O													
-req-14	1								O								
-req-15	7									O							
-req-16	3		O														
-req-17	9											O					
-req-18	8												O				
-req-19	4													O			
-req-20	7														O		
-req-21	4															O	
-req-22	4														O		
-req-23	3																O
-MAX		8	3	6	10	2	4	15	1	7	1	9	8	4	7	4	3
-TOTAL		8	5	11	22	4	7	17	1	7	1	9	8	4	11	4	3
+![image](https://user-images.githubusercontent.com/80442377/144795004-063b2140-042e-43ab-bf46-237c4ca60bc1.png)
