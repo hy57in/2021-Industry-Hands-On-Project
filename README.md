@@ -14,10 +14,10 @@
 | 이름   | GitHub                                         | 역할                    |
 | ------ | ---------------------------------------------- | ----------------------- |
 | 김소현 | [@thguss](https://github.com/thguss)           | SubGroup2               |
-| 김효진 | [@hy57in](https://github.com/hy57in)           | SubGroup2               |
-| 정설희 | [@xxeol2](https://github.com/xxeol2)           | SubGroup2               |
-| 조현민 | [@HnM97](https://github.com/HnM97)             | SubGroup1               |
-| 채희선 | [@chaehuiseon](https://github.com/chaehuiseon) | Scrum Master, SubGroup1 |
+| 김효진 | [@hy57in](https://github.com/hy57in)           | SubGroup1               |
+| 정설희 | [@xxeol2](https://github.com/xxeol2)           | SubGroup1               |
+| 조현민 | [@HnM97](https://github.com/HnM97)             | SubGroup2               |
+| 채희선 | [@chaehuiseon](https://github.com/chaehuiseon) | Scrum Master, SubGroup2 |
 
 ## 1st Sprint SubGroups
 
