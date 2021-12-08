@@ -10,26 +10,8 @@ export default function Signup() {
         <h3>Sign Up</h3>
 
         <div className="form-group">
-          <label>First name</label>
-          <input
-            type="text"
-            className="form-control"
-            placeholder="First name"
-          />
-        </div>
-
-        <div className="form-group">
-          <label>Last name</label>
-          <input type="text" className="form-control" placeholder="Last name" />
-        </div>
-
-        <div className="form-group">
-          <label>Email address</label>
-          <input
-            type="email"
-            className="form-control"
-            placeholder="Enter email"
-          />
+          <label>ID</label>
+          <input type="id" className="form-control" placeholder="Enter ID" />
         </div>
 
         <div className="form-group">
@@ -40,13 +22,31 @@ export default function Signup() {
             placeholder="Enter password"
           />
         </div>
+        <div className="form-group">
+          <label>Name</label>
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Enter Name"
+          />
+        </div>
+
+        <div className="form-group">
+          <label>Phone</label>
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Enter Phone"
+          />
+        </div>
+
         <Link to="/home">
           <button type="submit" className="btn btn-primary btn-block">
             Sign Up
           </button>
         </Link>
         <p className="forgot-password text-right">
-          <a href="/login">log in</a>
+          <a href="/login">sign in</a>
         </p>
       </form>
     </div>

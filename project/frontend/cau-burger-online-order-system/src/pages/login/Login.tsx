@@ -8,7 +8,7 @@ export default function Login() {
       <form>
         <h3>Sign In</h3>
         <div className="form-group">
-          <label>Email address</label>
+          <label>ID</label>
           <input
             type="email"
             className="form-control"
@@ -38,7 +38,7 @@ export default function Login() {
         </div>
         <Link to="/home">
           <button type="submit" className="btn btn-primary btn-block">
-            Submit
+            Sign In
           </button>
         </Link>
         <p className="forgot-password text-right">
