@@ -54,6 +54,19 @@ export const CounterBox = styled.div`
 `
 
 export const CashButton = styled.button`
-  margin-left: 88%;
+  margin-left: 80%;
   margin-right: 10px;
+  background: #004c97;
+  color: white;
+  font-size: 25px;
+  border: 1px solid white;
+  cursor: pointer;
+`
+
+export const LinkHome = styled.button`
+  background: #004c97;
+  color: white;
+  font-size: 25px;
+  border: 1px solid white;
+  cursor: pointer;
 `

@@ -10,6 +10,7 @@ function Counter() {
         <s.CounterButton1 onClick={onIncrease}>+1</s.CounterButton1>
         <s.CounterText>{count}</s.CounterText>
         <s.CounterButton2 onClick={onDecrease}>-1</s.CounterButton2>
+        <s.CounterText>개</s.CounterText>
       </div>
   );
 }
