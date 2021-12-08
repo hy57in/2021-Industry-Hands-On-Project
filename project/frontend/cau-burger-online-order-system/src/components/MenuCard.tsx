@@ -2,24 +2,46 @@
  * 관리자 메뉴에서도 사용할 예정이라 componenet로 따로 뻼
  */
 
-import React from 'react'
+import React, { useCallback } from 'react'
 import * as s from 'components/MenuCardStyled'
+import { useHistory } from 'react-router-dom'
 
-type MenuProps = {
+interface MenuInfo {
+  ko_name: string
+  price: string
   image: string
-  name: string
-  price: number
+  info: string
+  like: number
 }
 
-const MenuCard = ({ image, name, price }: MenuProps) => {
+const MenuCard = ({ image, ko_name, price, info, like }: MenuInfo) => {
+  const history = useHistory()
+
+  const detailInfo: MenuInfo = {
+    ko_name: ko_name,
+    price: price,
+    image: image,
+    info: info,
+    like: like,
+  }
+  const handleOnClick = useCallback(
+    () =>
+      history.push({
+        pathname: '/detail',
+        state: {
+          detailInfo: detailInfo,
+        },
+      }),
+    [history, ko_name, price, image, info, like]
+  )
+
   return (
-    <s.CardBox>
+    <s.CardBox onClick={(e) => handleOnClick()}>
       <s.CardImage src={image} />
-      <s.CardText>{name}</s.CardText>
+      <s.CardText>{ko_name}</s.CardText>
       <s.CardText>{price}원</s.CardText>
     </s.CardBox>
   )
 }
-
 
 export default MenuCard
