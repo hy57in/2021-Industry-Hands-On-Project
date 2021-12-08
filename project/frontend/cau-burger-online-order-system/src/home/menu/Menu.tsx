@@ -23,28 +23,6 @@ interface MenuInfo {
   like: number
 }
 
-// 임시 데이터
-// const menu1: MenuInfo = {
-//   image:
-//     'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/NYC-Diner-Bacon-Cheeseburger.jpg/330px-NYC-Diner-Bacon-Cheeseburger.jpg',
-//   name: '새우버거',
-//   price: 3000,
-// }
-
-// const menu2: MenuInfo = {
-//   image:
-//     'https://w.namu.la/s/91358088c687de68488f921cf22ebcdc819dea6ff14807b532d20f41950e443413e55bd4ee40bc7c7db2c374182c6f182c916063dc1a8ed72da0d24096a73e7a00af211c043da18042572979fd3973dde516fce581746a3c537adba89ebccb3c836af072faa11219f105d80ab6f60bd4',
-//   name: '콜라',
-//   price: 1000,
-// }
-
-// const menu3: MenuInfo = {
-//   image:
-//     'https://www.paris.co.kr/wp-content/uploads/%ED%99%94%EC%9D%B4%ED%8A%B8%EC%9A%94%EA%B1%B0%ED%8A%B8%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC.png-%EA%B7%B8%EB%A6%BC%ED%8C%90.jpg',
-//   name: '아이스크림',
-//   price: 2000,
-// }
-
 const Menu = ({ categoryNum, setCategoryNum }: MenuProps) => {
   let menuList: MenuInfo[]
   const burgerMenu = menuData.burger
