@@ -6,8 +6,6 @@ const { userDB } = require('../../../db');
 const jwtHandlers = require('../../../lib/jwtHandlers');
 const bcrypt = require('bcryptjs');
 
-
-
 module.exports = async (req, res) => {
   const { id, password, name, phone } = req.body;
 
@@ -47,7 +45,7 @@ module.exports = async (req, res) => {
 
     const resUser = {
       id: user.id,
-      name: user.nickname,
+      name: user.name
     }
 
     res.status(statusCode.OK).send(util.success(statusCode.OK, responseMessage.CREATED_USER, { user: resUser, accesstoken }));

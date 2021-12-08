@@ -38,4 +38,6 @@ const convertSnakeToCamel = require('../lib/convertSnakeToCamel');
   
       return convertSnakeToCamel.keysToCamel(rows[0]);
   }
+
+
 module.exports = { getUserById, getUserByPhone, addUser };
