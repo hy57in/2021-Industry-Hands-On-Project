@@ -60,6 +60,7 @@ export const CashButton = styled.button`
   color: white;
   font-size: 25px;
   border: 1px solid white;
+  cursor: pointer;
 `
 
 export const LinkHome = styled.button`
@@ -67,4 +68,5 @@ export const LinkHome = styled.button`
   color: white;
   font-size: 25px;
   border: 1px solid white;
+  cursor: pointer;
 `

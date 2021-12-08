@@ -11,6 +11,7 @@ export const CounterButton1 = styled.button`
   margin-right: 10px;
   border: solid 2px grey;
   border-radius: 12px;
+  cursor: pointer;
 `
 
 export const CounterButton2 = styled.button`
@@ -20,4 +21,5 @@ export const CounterButton2 = styled.button`
   margin-right: 10px;
   border: solid 2px grey;
   border-radius: 12px;
+  cursor: pointer;
 `
