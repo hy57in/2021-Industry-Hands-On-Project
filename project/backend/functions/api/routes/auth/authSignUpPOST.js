@@ -30,6 +30,7 @@ module.exports = async (req, res) => {
     // 이미 존재하는 아이디면
     if(alreadyId) {
         res.status(statusCode.BAD_REQUEST).send(util.fail(statusCode.BAD_REQUEST, responseMessage.ALREADY_ID));
+        return;
     }
 
     const alreadyPhone = await userDB.getUserByPhone(client, phone);
@@ -37,6 +38,7 @@ module.exports = async (req, res) => {
     // 이미 존재하는 아이디면
     if(alreadyPhone) {
         res.status(statusCode.BAD_REQUEST).send(util.fail(statusCode.BAD_REQUEST, responseMessage.ALREADY_PHONE));
+        return;
     }
     
     const user = await userDB.addUser(client, id, hashPassword, name, phone);
