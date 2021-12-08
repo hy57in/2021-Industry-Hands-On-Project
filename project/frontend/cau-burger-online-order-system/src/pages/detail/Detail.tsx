@@ -48,7 +48,9 @@ const Detail = () => {
       <s.CounterBox>
         <Counter />
         <s.CashButton>주문하기</s.CashButton>
-        <Link to="/"><s.LinkHome>홈으로</s.LinkHome></Link>
+        <Link to="/home">
+          <s.LinkHome>홈으로</s.LinkHome>
+        </Link>
       </s.CounterBox>
     </div>
   )

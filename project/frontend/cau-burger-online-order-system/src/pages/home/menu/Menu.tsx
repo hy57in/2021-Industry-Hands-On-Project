@@ -67,6 +67,7 @@ const Menu = ({ categoryNum, setCategoryNum }: MenuProps) => {
       <s.MenuBox>
         {menuList.map((menu, index) => (
           <MenuCard
+            key={index}
             image={menu.image}
             ko_name={menu.ko_name}
             price={menu.price}
