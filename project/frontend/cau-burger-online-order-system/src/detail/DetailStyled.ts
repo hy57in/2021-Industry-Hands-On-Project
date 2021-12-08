@@ -52,3 +52,8 @@ export const CounterBox = styled.div`
   padding-bottom: 3vw;
   background-color: white;
 `
+
+export const CashButton = styled.button`
+  margin-left: 88%;
+  margin-right: 10px;
+`
