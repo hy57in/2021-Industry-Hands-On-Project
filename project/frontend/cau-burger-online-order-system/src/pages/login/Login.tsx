@@ -1,18 +1,39 @@
 import * as s from './LoginStyled'
 
+import { useEffect, useState } from 'react'
+
 import { Link } from 'react-router-dom'
+import axios from 'axios'
 
 export default function Login() {
+  const [ID, setID] = useState('')
+  const [password, setPassword] = useState('')
+
+  const IDHandler = (event: any) => {
+    setID(event.currentTarget.value)
+  }
+
+  const passwordHandler = (event: any) => {
+    setPassword(event.currentTarget.value)
+  }
+  const submitHandler = (event: any) => {
+    event.preventDefault()
+    console.log(ID)
+    console.log(password)
+  }
+
   return (
     <div className="auth-inner">
-      <form>
+      <form onSubmit={submitHandler}>
         <h3>Sign In</h3>
         <div className="form-group">
           <label>ID</label>
           <input
-            type="email"
+            type="text"
             className="form-control"
-            placeholder="Enter email"
+            placeholder="Enter ID"
+            value={ID}
+            onChange={IDHandler}
           />
         </div>
 
@@ -22,6 +43,8 @@ export default function Login() {
             type="password"
             className="form-control"
             placeholder="Enter password"
+            value={password}
+            onChange={passwordHandler}
           />
         </div>
         <div className="form-group">
