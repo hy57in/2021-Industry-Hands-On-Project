@@ -1,27 +1,27 @@
-import { Route, Switch } from 'react-router-dom'
+import { Link, Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 
 import Detail from 'pages/detail/Detail'
 import Home from 'pages/home/Home'
 import Login from 'pages/login'
-import React from 'react'
 import Signup from 'pages/signup'
 
 function App() {
   return (
-    <Switch>
-      <Route exact path="/home">
-        <Home />
-      </Route>
-      <Route path="/detail">
-        <Detail />
-      </Route>
-      <Route path="/signup">
-        <Signup />
-      </Route>
-      <Route path="/">
-        <Login />
-      </Route>
-    </Switch>
+    <Router>
+      <div className="App">
+        <div className="auth-wrapper">
+          <div className="auth-inner">
+            <Switch>
+              <Route exact path="/" component={Login} />
+              <Route path="/login" component={Login} />
+              <Route path="/signup" component={Signup} />
+              <Route path="/home" component={Home} />
+              <Route path="/detail" component={Detail} />
+            </Switch>
+          </div>
+        </div>
+      </div>
+    </Router>
   )
 }
 
