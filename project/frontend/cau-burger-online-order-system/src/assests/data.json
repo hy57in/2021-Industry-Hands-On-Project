@@ -1,0 +1,183 @@
+{
+  "burger": [
+    {
+      "ko_name": "치즈버거",
+      "price": "1500",
+      "image": "https://blog.kakaocdn.net/dn/bsyq3u/btq0umoC80M/pQt174imzJETRO009kC5L0/img.jpg",
+      "info": "우유,대두,밀,토마토,쇠고기",
+      "like": 0
+    },
+    {
+      "ko_name": "새우버거",
+      "price": "1100",
+      "image": "https://img.insight.co.kr/static/2016/03/04/700/292z8mhg980269202q5s.jpg",
+      "info": "밀, 대두, 난류, 우유, 토마토, 새우",
+      "like": 0
+    },
+    {
+      "ko_name": "치킨버거",
+      "price": "1400",
+      "image": "https://w.namu.la/s/7172d8193516aac11c8d2f0c09e3fdcb46a1b24ee37b0193f3e8450005d9d5e8306ae1004141c9703f8f8ac7d72eb9afba93a6e453a0c7dac5888bee60358d98d07392bb122b0c8535a10f7d318d294a",
+      "info": "난류, 밀, 대두, 우유, 땅콩, 닭고기, 조개류",
+      "like": 0
+    },
+    {
+      "ko_name": "휠레해시버거",
+      "price": "2700",
+      "image": "https://mblogthumb-phinf.pstatic.net/MjAxOTEyMTlfMjc5/MDAxNTc2NzYxODA5MjAz.s86X6z6L_E0EYRyidvzpz-ktVPo9Vxbb7FVw-2cd6ygg._ZeIuqVRLHbmHTTZpdlv7ys3mewJ4aMpgRHixu0JUJgg.JPEG.papu2004/%EB%A7%98%EC%8A%A4%ED%84%B0%EC%B9%98_%EC%8B%A0%EB%A9%94%EB%89%B4_%ED%9C%A0%EB%A0%9B_%ED%8F%AC%ED%85%8C%EC%9D%B4%ED%86%A0%EB%B2%84%EA%B1%B0_(3).jpg?type=w800",
+      "info": "알류,우유,대두,밀,토마토,닭고기,쇠고기,조개류",
+      "like": 0
+    },
+    {
+      "ko_name": "더블치즈버거",
+      "price": "2100",
+      "image": "https://ww.namu.la/s/9ec045bf1c95e5a55f589023b6e032ea5ae457183c8283bf32048b9053ceea187e28721ce5faf1be00793b18704d3dc840d1cb98e407a7fe71637a3b901fc71a2ea63fea989c1bb9a75b08ea35b747ce",
+      "info": "알류, 우유,대두,밀,토마토,쇠고기",
+      "like": 0
+    },
+    {
+      "ko_name": "불고기버거",
+      "price": "2500",
+      "image": "http://www.mcdonalds.co.kr/uploadFolder/product/prod_201311271123111640.png",
+      "info": "알류,우유,대두,밀,돼지고기,토마토,닭고기,쇠고기",
+      "like": 0
+    },
+    {
+      "ko_name": "불고기빅버거",
+      "price": "2800",
+      "image": "https://w.namu.la/s/fb316a635823f9ccce43ddd0adb0a34038e6bf34520394daaf96b9b2636f0c6e06cc1b3f58c4aed832b70f027c7ecf06d3ed50ab5f984e2aec219e8c21be4a72ba21eefe4a9ae909981b05863b27c3d4",
+      "info": "알류,우유,대두,밀,돼지고기,토마토,닭고기,쇠고기",
+      "like": 0
+    },
+    {
+      "ko_name": "통살새우버거",
+      "price": "2200",
+      "image": "https://shop3.daumcdn.net/thumb/R500x500/?fname=http%3A%2F%2Fshop3.daumcdn.net%2Fshophow%2Fp%2FV14522402132.jpg%3Fut%3D20210824155838",
+      "info": "밀, 대두, 우유, 토마토, 닭고기, 쇠고기, 조개류, 난류, 새우",
+      "like": 0
+    },
+    {
+      "ko_name": "칠리치킨버거",
+      "price": "2200",
+      "image": "https://cdn.clien.net/web/api/file/F01/11190492/300629c3c5d78c.jpg?w=780&h=30000",
+      "info": "알류,우유,대두,밀,토마토,닭고기,쇠고기",
+      "like": 0
+    },
+    {
+      "ko_name": "더블휠레버거",
+      "price": "2800",
+      "image": "https://www.meconomynews.com/news/photo/202009/45836_51581_2331.jpg",
+      "info": "알류,우유,대두,밀,토마토,닭고기,쇠고기,조개류",
+      "like": 0
+    },
+    {
+      "ko_name": "진저치킨버거",
+      "price": "3200",
+      "image": "https://w7.pngwing.com/pngs/315/302/png-transparent-kfc-chicken-sandwich-cheeseburger-fast-food-fried-chicken-zinger-burger-kfc-chicken-sandwich-cheeseburger.png",
+      "info": "알류,우유,대두,밀,토마토,닭고기,쇠고기,조개류",
+      "like": 0
+    },
+    {
+      "ko_name": "CAU Plant Burger",
+      "price": "3000",
+      "image": "https://hobulho.com/files/attach/images/43659/405/095/c2ae8ed7d5113cc60f527bece0cc5a5f.jpg",
+      "info": "밀, 대두, 우유, 토마토, 닭고기, 쇠고기, 난류",
+      "like": 0
+    }
+  ],
+  "side": [
+    {
+      "ko_name": "렐리쉬핫도그",
+      "price": "2000",
+      "image": "https://cloudfront.haemukja.com/vh.php?url=https://d1hk7gw6lgygff.cloudfront.net/uploads/direction/image_file/52500/pad_thumb_1.JPG&convert=jpgmin&rt=600",
+      "info": "밀, 닭고기, 돼지고기, 우유, 토마토, 계란",
+      "like": 0
+    },
+    {
+      "ko_name": "회오리감자",
+      "price": "1800",
+      "image": "https://lh3.googleusercontent.com/proxy/crLqPWV-JzdRbsgJ8U03RvVR_qe-hlis01gdoPXOo9_6ttdtkAKZg8TEtdEyahVEdwip83fegFAyWsr78-wfAzmv64QlVurwwp1TPxPQj8WxrIy7JrCviduc9IWGbbiDYSosneVgyuHL27gbzX-tUNdudh0",
+      "info": "대두",
+      "like": 0
+    },
+    {
+      "ko_name": "감자튀김+케찹",
+      "price": "800",
+      "image": "https://w.namu.la/s/8209541e688a36a51866e437a1032cc61cb7fe9963a34e15e6dc89ce82de73321b516f748812865004694c34ab7e7548f05d45c26a843dd74efb457c95bef7987112091d25d5aff2dab06757ea4a7a5dfa41a2a93d3fe1c6093950d3a8952ad1",
+      "info": "대두",
+      "like": 0
+    },
+    {
+      "ko_name": "치킨텐더+머스타드",
+      "price": "1300",
+      "image": "https://w.namu.la/s/a98cf80ad22a0445d1eee44d54a9d9b0c43811f229f200d70a3c0cc8177fe1776a4da55c306c7efcc6c496aca22204b85990103ec218dd2f7c576a28a0fc6c94405e9fe93c666ea2f93c6e2c982b1abb",
+      "info": "대두,밀,댉고기,알류",
+      "like": 0
+    },
+    {
+      "ko_name": "치즈스틱",
+      "price": "1300",
+      "image": "https://image2.lotteimall.com/goods/13/10/75/1718751013_L.jpg",
+      "info": "밀, 대두, 우유, 난류",
+      "like": 0
+    },
+    {
+      "ko_name": "치킨너겟+머스타드",
+      "price": "1500",
+      "image": "https://cdn.011st.com/11dims/resize/600x600/quality/75/11src/pd/19/1/7/4/9/8/3/NntLY/2641174983_B.jpg",
+      "info": "밀, 대두, 닭고기, 쇠고기,알류",
+      "like": 0
+    },
+    {
+      "ko_name": "해쉬브라운",
+      "price": "1000",
+      "image": "http://th4.tmon.kr/thumbs/image/f62/3ed/ba3/b6e2e6f46_700x700_95_FIT.jpg",
+      "info": "밀, 우유, 아황산염",
+      "like": 0
+    },
+    {
+      "ko_name": "닭껍질튀김",
+      "price": "2500",
+      "image": "https://www.greened.kr/news/photo/201912/226450_230755_5538.jpg",
+      "info": "알류, 닭고기, 대두, 밀",
+      "like": 0
+    }
+  ],
+  "dessert_drink": [
+    {
+      "ko_name": "아포카토",
+      "price": "1500",
+      "image": "http://img.danawa.com/prod_img/500000/121/452/img/14452121_1.jpg?shrink=330:330&_v=20210907125735",
+      "info": "우유,대두",
+      "like": 0
+    },
+    {
+      "ko_name": "커피",
+      "price": "1000",
+      "image": "http://img.danawa.com/prod_img/500000/976/566/img/7566976_1.jpg?shrink=330:330&_v=20210610163129",
+      "info": "아이스 아메리카노",
+      "like": 0
+    },
+    {
+      "ko_name": "음료",
+      "price": "1000",
+      "image": "https://w.namu.la/s/91358088c687de68488f921cf22ebcdc819dea6ff14807b532d20f41950e443413e55bd4ee40bc7c7db2c374182c6f182c916063dc1a8ed72da0d24096a73e7a00af211c043da18042572979fd3973dde516fce581746a3c537adba89ebccb3c836af072faa11219f105d80ab6f60bd4",
+      "info": "주문 후, 사이다, 콜라, 환타 중에 선택할 수 있음",
+      "like": 0
+    },
+    {
+      "ko_name": "아이스크림",
+      "price": "1000",
+      "image": "https://static.turbosquid.com/Preview/2019/12/19__22_04_39/IceCreamConemb3dmodel000.jpg15D4CA92-EB9A-491A-AF90-4CF9931DA866Large.jpg",
+      "info": "우유,밀",
+      "like": 0
+    },
+    {
+      "ko_name": "더블샷 아이스크림 라떼",
+      "price": "2500",
+      "image": "https://www.baristapaulbassett.co.kr/upload/product/A/thumbnailFile_201903211048508580.png",
+      "info": "우유,밀,대두",
+      "like": 0
+    }
+  ]
+}

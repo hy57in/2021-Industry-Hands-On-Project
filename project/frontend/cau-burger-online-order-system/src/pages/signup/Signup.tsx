@@ -1,5 +1,4 @@
 import * as S from '../login/LoginStyled'
-import * as s from './SignupStyled'
 
 import { Link } from 'react-router-dom'
 
