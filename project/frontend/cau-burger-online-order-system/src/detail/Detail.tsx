@@ -33,22 +33,22 @@ const Detail = () => {
       </s.TitleBar>
 
       <s.ImageBox>
-        <s.NameText>새우버거</s.NameText>
+        <s.NameText>{detailInfo.ko_name}</s.NameText>
         <MenuImage image={detailInfo.image} />
       </s.ImageBox>
 
       <s.ContentBox>
         <s.ContentText>
-          메뉴 구성 성분
+          구성 성분: {detailInfo.info}
           <br />
         </s.ContentText>
-        <s.ContentText>가격</s.ContentText>
+        <s.ContentText>가격: {detailInfo.price}원</s.ContentText>
       </s.ContentBox>
 
       <s.CounterBox>
         <Counter />
         <s.CashButton>주문하기</s.CashButton>
-        <Link to="/">home</Link>
+        <Link to="/"><s.LinkHome>홈으로</s.LinkHome></Link>
       </s.CounterBox>
     </div>
   )
