@@ -5,21 +5,22 @@
 import React from 'react'
 import * as s from 'components/MenuCardStyled'
 
-type MenuProps = {
+interface MenuProps {
+  ko_name: string
+  price: string
   image: string
-  name: string
-  price: number
+  info: string
+  like: number
 }
 
-const MenuCard = ({ image, name, price }: MenuProps) => {
+const MenuCard = ({ image, ko_name, price, info, like }: MenuProps) => {
   return (
     <s.CardBox>
       <s.CardImage src={image} />
-      <s.CardText>{name}</s.CardText>
+      <s.CardText>{ko_name}</s.CardText>
       <s.CardText>{price}원</s.CardText>
     </s.CardBox>
   )
 }
-
 
 export default MenuCard
