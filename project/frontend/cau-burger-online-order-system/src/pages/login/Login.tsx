@@ -1,27 +1,45 @@
-import * as s from './LoginStyled'
-
 import { useEffect, useState } from 'react'
 
 import { Link } from 'react-router-dom'
 import axios from 'axios'
 
+const BASE_URL =
+  'https://asia-northeast3-cauburger-568d6.cloudfunctions.net/api'
+
 export default function Login() {
   const [ID, setID] = useState('')
   const [password, setPassword] = useState('')
 
-  const IDHandler = (event: any) => {
-    setID(event.currentTarget.value)
+  const IDHandler = (e: any) => {
+    setID(e.target.value)
   }
 
-  const passwordHandler = (event: any) => {
-    setPassword(event.currentTarget.value)
+  const passwordHandler = (e: any) => {
+    setPassword(e.target.value)
   }
-  const submitHandler = (event: any) => {
-    event.preventDefault()
+  const submitHandler = (e: any) => {
+    e.preventDefault()
     console.log(ID)
     console.log(password)
   }
 
+  useEffect(() => {
+    axios
+      .post(
+        `${BASE_URL}/auth/signin`,
+        {
+          id: ID,
+          password: password,
+        },
+        {
+          headers: {
+            'Content-type': 'application/json',
+          },
+        }
+      )
+      .then((res) => console.log(res))
+      .catch()
+  }, [])
   return (
     <div className="auth-inner">
       <form onSubmit={submitHandler}>
@@ -69,28 +87,5 @@ export default function Login() {
         </p>
       </form>
     </div>
-    // <s.LoginWrapper>
-    //   <s.Title>Log In</s.Title>
-    //   <div style={{ marginRight: '150px' }}>
-    //     <s.InputWrapper>
-    //       <s.InputTitle>ID</s.InputTitle>
-    //       <s.Input />
-    //     </s.InputWrapper>
-    //     <s.InputWrapper>
-    //       <s.InputTitle>PW</s.InputTitle>
-    //       <s.Input />
-    //     </s.InputWrapper>
-    //   </div>
-    //   <s.LoginButtonWrapper>
-    //     <Link to="/home">
-    //       {' '}
-    //       <s.LoginButton>로그인</s.LoginButton>
-    //     </Link>
-    //     <Link to="/signup">
-    //       {' '}
-    //       <s.LoginButton>회원가입</s.LoginButton>
-    //     </Link>
-    //   </s.LoginButtonWrapper>
-    // </s.LoginWrapper>
   )
 }
