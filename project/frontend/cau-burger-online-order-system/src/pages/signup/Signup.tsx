@@ -119,7 +119,11 @@ export default function Signup() {
           <S.Success>회원가입에 성공했습니다! 로그인해주세요.</S.Success>
         )}
         {/* <Link to="/login"> */}
-        <button type="submit" className="btn btn-primary btn-block">
+        <button
+          type="submit"
+          className="btn btn-primary btn-block"
+          style={{ width: '100%', marginTop: '20px' }}
+        >
           Sign Up
         </button>
         {/* </Link> */}

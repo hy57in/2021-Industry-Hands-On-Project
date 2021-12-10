@@ -95,7 +95,11 @@ export default function Login() {
           </div>
         </div>
         {/* <Link to="/home"> */}
-        <button type="submit" className="btn btn-primary btn-block">
+        <button
+          type="submit"
+          className="btn btn-primary btn-block"
+          style={{ width: '100%', marginTop: '20px' }}
+        >
           Sign In
         </button>
         {/* </Link> */}
