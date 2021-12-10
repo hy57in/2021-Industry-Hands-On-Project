@@ -14,7 +14,7 @@ export default function Signup() {
   const [name, setName] = useState('')
   const [phone, setPhone] = useState('')
   const [signUpError, setSignUpError] = useState('')
-  const [signUpSuccess, setSignUpSuccess] = useState('')
+  const [signUpSuccess, setSignUpSuccess] = useState(false)
 
   const onChangeID = useCallback((e: any) => {
     setID(e.target.value)
@@ -35,7 +35,8 @@ export default function Signup() {
       console.log('password: ', password)
       console.log('name: ', name)
       console.log('phone: ', phone)
-
+      setSignUpError('')
+      setSignUpSuccess(false)
       axios
         .post(
           `${BASE_URL}/auth/signup`,
@@ -51,12 +52,17 @@ export default function Signup() {
             },
           }
         )
-        .then((response) => console.log(response.data))
-        .catch((error) => console.log(error.response))
+        .then((response) => {
+          console.log(response.data)
+          setSignUpSuccess(true)
+        })
+        .catch((error) => {
+          console.log(error.response)
+          setSignUpError(error.response.data)
+        })
     },
     [ID, password, name, phone]
   )
-
 
   return (
     <div className="auth-inner">
