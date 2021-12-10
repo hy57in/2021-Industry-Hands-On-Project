@@ -1,60 +1,65 @@
-## size 1 : (회원가입, 로그인), 메뉴 정보, 상세페이지, 장바구니
-#### user
-REQ-1. 서비스를 이용하기 위해, 이용자는 서비스에 회원 가입한다. 회원 가입 정보는 사용자 이름, 아이디, 패스워드를 포함한다.   
+## Requirement Gathering
 
-REQ-2. 이용자는 아이디와 비밀번호를 입력해 로그인한다.  
+[Requirement Gathering](document/sprint1/Requirement_gathering.md)
 
-REQ-3. 이용자는 어떤 메뉴가 있는지 모르므로 홈페이지에서 버거,사이드,음료 종류를 선택할 수 있다.  
+## USECASE
 
-REQ-6. 이용자가 특정 버거를 선택하면, 해당 버거의 가격 및 세부정보를 제공한다.
+USECASE-1 회원가입
 
-REQ-9. 이용자는 카테고리에서 버거 또는 사이드메뉴를 장바구니에 담을 수 있다.
+USECASE-2 로그인
 
-REQ-10. 이용자는 버거 선택 시 사이드 메뉴 및 개수를 선택할 수 있다.
+USECASE-3 메뉴 조회
 
-REQ-11. 주문 확인 및 추가,삭제를 위해, 이용자는 자신이 장바구니에 담은 메뉴를 조회할 수 있다.
+USECASE-4 메뉴정보확인
 
-#### admin : 주문정보, 버거 메뉴, 메뉴추가,
+USECASE-5 수령 방법 결정
 
-REQ-17.주문을 받기 위해, 관리자는 주문정보(메뉴, 주소)를 확인할 수 있다.
+USECASE-6 메뉴 수량 조절
 
-REQ-18.버거 메뉴를 관리하기 위해, 관리자는 등록된 버거 메뉴를 조회할 수 있다.
+USECASE-7 결제하기
 
-REQ-19.고객들의 메뉴 선택 및 주문을 위해, 관리자는 버거 메뉴를 추가할 수 있다.
+USECASE-8영업시간
 
-REQ-22.주문을 받기 위해, 관리자는 주문정보(메뉴, 주소)를 확인할 수 있다.
- 
-## size 2: 수정 삭제 결제
-#### user
-REQ-7. 주문을 기다리지 않기 위해, 이용자는 구매 시 픽업 시간을 설정할 수 있다
+USECASE-9 주문내역
 
-REQ-12. 장바구니에 담긴 메뉴 주문(구매)을 위해, 이용자는 결제할 수 있다.
+USECASE-10 피드백남기기
 
-REQ-13. 장바구니에 담긴 메뉴 주문(구매)을 위해, 이용자는 총 결제 금액을 볼 수 있다.
+USECASE-11 등록메뉴확인
 
-REQ-15. 이용자는 자신이 작성한 피드백을 수정할 수 있다.
-#### admin
-REQ-20.버거 메뉴 정보가 변경될 때를 위해, 관리자는 등록한 버거 메뉴의 세부사항(메뉴이름, 가격, 사진)을 수정할 수 있다. 
+USECASE-12 메뉴추가
 
-REQ-21. 더 이상 판매하지 않는 메뉴가 생길 때를 위해, 관리자는 등록한 버거 메뉴를 삭제할 수 있다.
+USECASE-13 메뉴삭제
 
-REQ-23. 주문 내역을 관리하기 위해, 관리자는 유저 주문을 업데이트(픽업 전, 판매완료, 삭제 등) 할 수 있다.
+USECASE-14 판매내역
 
-REQ-24. 판매량을 계산하기 위해, 관리자는 버거 판매 내역을 조회할 수 있다.
- 
-## size 3: 정렬 
-#### user
-REQ-4. 이용자는 가게의 서비스 질 개선을 위해, 자신이 구매한 음식에 대해 피드백을 남길 수 있다.
+USECASE-15 주문상태 업데이트
 
-REQ-5. 이용자는 자신이 구매한 음식 메뉴에 대해 좋아요 또는 싫어요를 할 수 있다.
+USECASE-16 품절메뉴 가리기
 
-REQ-8. 개인 정보 보호를 위해, 이용자는 비밀번호를 변경할 수 있다.
+![image](https://user-images.githubusercontent.com/80442377/144810606-443f0729-8cb5-40b8-883b-bb287fce8d67.png)
 
-REQ-14. 이용자는 자신이 작성한 피드백을 삭제할 수 있다.
+## USECASE TraceAbility
 
-REQ-15. 이용자는 자신이 작성한 피드백을 수정할 수 있다.
+![image](https://user-images.githubusercontent.com/80442377/144795004-063b2140-042e-43ab-bf46-237c4ca60bc1.png)
 
-REQ-16. 인기 있는 메뉴를 확인하기 위해, 이용자는 좋아요 순서로 메뉴를 정렬할 수 있다.
-#### admin
-REQ-25. 판매 서비스의 질을 개선하기 위해, 관리자는 유저의 피드백을 조회할 수 있다.
+![image](https://user-images.githubusercontent.com/80442377/144797341-d4b36c73-f11c-4e3b-a1dd-a8eb6d6ef80b.png)
 
+위, 작업량(size)와 우선순위를 고려하여 아래와 같이 sprint를 분배하였다.
+
+## Sprint1
+
+
+
+USECASE 1,2,3,4 => total SIZE : 46
+
+[Sprint Backlog](https://github.com/hy57in/2021-Industry-Hands-On-Project/blob/main/document/sprint1/sprint_backlog.md)
+
+## Sprint2
+
+USECASE 5,6,8 => total SIZE : 19
+USECASE 15,10,11,12,16 => total SIZE : 17
+USECASE 9,13,14 => total SIZE : 22
+
+## Sprint2.5
+
+USECASE 7 => total SIZe : 17
