@@ -56,3 +56,10 @@ export const LoginButton = styled.button`
   background-color: D5D7DD;
   color: #004c97;
 `
+
+export const Error = styled.div`
+  color: red;
+`
+export const Success = styled.div`
+  color: green;
+`
