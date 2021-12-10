@@ -1,7 +1,7 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
-import { Link, Route, BrowserRouter as Router, Switch } from 'react-router-dom'
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 
 import Detail from 'pages/detail/Detail'
 import GlobalStyle from './GlobalStyle'

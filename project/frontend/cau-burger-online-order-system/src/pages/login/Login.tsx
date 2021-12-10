@@ -1,10 +1,9 @@
 import * as S from './LoginStyled'
 
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useState } from 'react'
 
-import { Link } from 'react-router-dom'
 import axios from 'axios'
-import { useHistory } from 'react-router'
+import { useHistory } from 'react-router-dom'
 
 const BASE_URL =
   'https://asia-northeast3-cauburger-568d6.cloudfunctions.net/api'
@@ -53,7 +52,7 @@ export default function Login() {
           setLoginError(error.response.data)
         })
     },
-    [ID, password]
+    [history, ID, password]
   )
 
   return (

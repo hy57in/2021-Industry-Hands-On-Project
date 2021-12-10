@@ -17,6 +17,7 @@ interface MenuInfo {
 const MenuCard = ({ image, ko_name, price, info, like }: MenuInfo) => {
   const history = useHistory()
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const detailInfo: MenuInfo = {
     ko_name: ko_name,
     price: price,
@@ -24,6 +25,7 @@ const MenuCard = ({ image, ko_name, price, info, like }: MenuInfo) => {
     info: info,
     like: like,
   }
+
   const handleOnClick = useCallback(
     () =>
       history.push({
@@ -32,7 +34,7 @@ const MenuCard = ({ image, ko_name, price, info, like }: MenuInfo) => {
           detailInfo: detailInfo,
         },
       }),
-    [history, ko_name, price, image, info, like]
+    [history, detailInfo]
   )
 
   return (
