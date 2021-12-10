@@ -14,22 +14,28 @@
 
 위, 작업량(size)와 우선순위를 고려하여 아래와 같이 sprint를 분배하였다.
 
-## Sprint1
-
-
+## Sprint1 => total SIZE : 46
 
 USECASE 1,2,3,4 => total SIZE : 46
 
+회원가입, 로그인, 메뉴조회, 메뉴 정보 확인
+
 [Sprint Backlog](https://github.com/hy57in/2021-Industry-Hands-On-Project/blob/main/document/sprint1/sprint_backlog.md)
 
-## Sprint2
+## Sprint2 => total SIZE : 36
 
-USECASE 5,6,8 => total SIZE : 19
+USECASE-5,6,7,8 => SIZE : 16 (4+7+4+1)
 
-USECASE 15,10,11,12,16 => total SIZE : 17
+수령방법 결정, 메뉴 수량 조절, 영업시간, 결제하기
 
-USECASE 9,13,14 => total SIZE : 22
+USECASE- 9,10,11,16  => SIZE : 20 (7+1+9+3)
 
-## Sprint2.5
+등록메뉴확인,  품절메뉴 가리기,(주문내역/피드백)
 
-USECASE 7 => total SIZe : 17
+
+## Sprint2.5 => total SIZE : 22
+
+USECASE-9,13,14 => SIZE : 22 ( 7+4+11 )
+
+주문내역, 메뉴삭제, 판매내역 
+
