@@ -1,3 +1,5 @@
+import * as S from './LoginStyled'
+
 import { useCallback, useEffect, useState } from 'react'
 
 import { Link } from 'react-router-dom'
@@ -9,6 +11,8 @@ const BASE_URL =
 export default function Login() {
   const [ID, setID] = useState('')
   const [password, setPassword] = useState('')
+  const [loginError, setLoginError] = useState('')
+  const [loginSuccess, setLoginSuccess] = useState(false)
 
   const onChangeID = useCallback((e: any) => {
     setID(e.target.value)
@@ -22,6 +26,8 @@ export default function Login() {
       e.preventDefault()
       console.log('ID: ', ID)
       console.log('password: ', password)
+      setLoginError('')
+      setLoginSuccess(false)
       axios
         .post(
           `${BASE_URL}/auth/signin`,
@@ -35,8 +41,14 @@ export default function Login() {
             },
           }
         )
-        .then((response) => console.log(response.data))
-        .catch((error) => console.log(error.response))
+        .then((response) => {
+          console.log(response.data)
+          setLoginSuccess(true)
+        })
+        .catch((error) => {
+          console.log(error.response)
+          setLoginError(error.response.data)
+        })
     },
     [ID, password]
   )
@@ -66,6 +78,8 @@ export default function Login() {
             onChange={onChangePassword}
           />
         </div>
+        {loginError && <S.Error>아이디와 비밀번호가 맞지 않습니다.</S.Error>}
+        {loginSuccess && <S.Success>로그인에 성공했습니다.</S.Success>}
         <div className="form-group">
           <div className="custom-control custom-checkbox">
             <input
