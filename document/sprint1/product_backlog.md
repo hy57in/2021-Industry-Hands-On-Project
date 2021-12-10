@@ -4,38 +4,6 @@
 
 ## USECASE
 
-USECASE-1 회원가입
-
-USECASE-2 로그인
-
-USECASE-3 메뉴 조회
-
-USECASE-4 메뉴정보확인
-
-USECASE-5 수령 방법 결정
-
-USECASE-6 메뉴 수량 조절
-
-USECASE-7 결제하기
-
-USECASE-8영업시간
-
-USECASE-9 주문내역
-
-USECASE-10 피드백남기기
-
-USECASE-11 등록메뉴확인
-
-USECASE-12 메뉴추가
-
-USECASE-13 메뉴삭제
-
-USECASE-14 판매내역
-
-USECASE-15 주문상태 업데이트
-
-USECASE-16 품절메뉴 가리기
-
 ![image](https://user-images.githubusercontent.com/80442377/144810606-443f0729-8cb5-40b8-883b-bb287fce8d67.png)
 
 ## USECASE TraceAbility
