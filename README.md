@@ -5,7 +5,7 @@
 
 ## Topic
 
-온라인 카우버거 주문 시스템  
+온라인 카우버거 주문 시스템
 link : https://hy57in.github.io/2021-Industry-Hands-On-Project/
 
 참고 : [Online Pizza Ordering System](https://nevonprojects.com/online-pizza-ordering-system/)
