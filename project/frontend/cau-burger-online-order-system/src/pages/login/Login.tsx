@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 
 import { Link } from 'react-router-dom'
 import axios from 'axios'
@@ -10,39 +10,40 @@ export default function Login() {
   const [ID, setID] = useState('')
   const [password, setPassword] = useState('')
 
-  const IDHandler = (e: any) => {
+  const onChangeID = useCallback((e: any) => {
     setID(e.target.value)
-  }
-
-  const passwordHandler = (e: any) => {
-    setPassword(e.target.value)
-  }
-  const submitHandler = (e: any) => {
-    e.preventDefault()
-    console.log(ID)
-    console.log(password)
-  }
-
-  useEffect(() => {
-    axios
-      .post(
-        `${BASE_URL}/auth/signin`,
-        {
-          id: ID,
-          password: password,
-        },
-        {
-          headers: {
-            'Content-type': 'application/json',
-          },
-        }
-      )
-      .then((res) => console.log(res))
-      .catch()
   }, [])
+
+  const onChangePassword = useCallback((e: any) => {
+    setPassword(e.target.value)
+  }, [])
+  const onSubmit = useCallback(
+    (e: any) => {
+      e.preventDefault()
+      console.log('ID: ', ID)
+      console.log('password: ', password)
+      axios
+        .post(
+          `${BASE_URL}/auth/signin`,
+          {
+            id: ID,
+            password: password,
+          },
+          {
+            headers: {
+              'Content-type': 'application/json',
+            },
+          }
+        )
+        .then((response) => console.log(response.data))
+        .catch((error) => console.log(error.response))
+    },
+    [ID, password]
+  )
+
   return (
     <div className="auth-inner">
-      <form onSubmit={submitHandler}>
+      <form onSubmit={onSubmit}>
         <h3>Sign In</h3>
         <div className="form-group">
           <label>ID</label>
@@ -51,7 +52,7 @@ export default function Login() {
             className="form-control"
             placeholder="Enter ID"
             value={ID}
-            onChange={IDHandler}
+            onChange={onChangeID}
           />
         </div>
 
@@ -62,7 +63,7 @@ export default function Login() {
             className="form-control"
             placeholder="Enter password"
             value={password}
-            onChange={passwordHandler}
+            onChange={onChangePassword}
           />
         </div>
         <div className="form-group">
@@ -77,13 +78,13 @@ export default function Login() {
             </label>
           </div>
         </div>
-        <Link to="/home">
-          <button type="submit" className="btn btn-primary btn-block">
-            Sign In
-          </button>
-        </Link>
+        {/* <Link to="/home"> */}
+        <button type="submit" className="btn btn-primary btn-block">
+          Sign In
+        </button>
+        {/* </Link> */}
         <p className="forgot-password text-right">
-          <a href="/signup">sign up</a>
+          아직 회원이 아니신가요? <a href="/signup">회원가입 하러가기</a>
         </p>
       </form>
     </div>
