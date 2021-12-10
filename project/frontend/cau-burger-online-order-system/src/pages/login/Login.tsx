@@ -94,15 +94,30 @@ export default function Login() {
             </label>
           </div>
         </div>
-        {/* <Link to="/home"> */}
-        <button
-          type="submit"
-          className="btn btn-primary btn-block"
-          style={{ width: '100%', marginTop: '20px' }}
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            gap: '10px',
+            marginTop: '20px',
+          }}
         >
-          Sign In
-        </button>
-        {/* </Link> */}
+          <button
+            type="submit"
+            className="btn btn-primary btn-block"
+            style={{ width: '100%' }}
+          >
+            Sign In
+          </button>
+          <button
+            type="submit"
+            className="btn btn-primary btn-block"
+            style={{ width: '100%' }}
+            onClick={() => history.push('/signup')}
+          >
+            Sign Up
+          </button>
+        </div>
         <p className="forgot-password text-right">
           아직 회원이 아니신가요? <a href="/signup">회원가입 하러가기</a>
         </p>
