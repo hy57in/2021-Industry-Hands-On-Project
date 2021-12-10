@@ -4,11 +4,13 @@ import { useCallback, useEffect, useState } from 'react'
 
 import { Link } from 'react-router-dom'
 import axios from 'axios'
+import { useHistory } from 'react-router'
 
 const BASE_URL =
   'https://asia-northeast3-cauburger-568d6.cloudfunctions.net/api'
 
 export default function Login() {
+  const history = useHistory()
   const [ID, setID] = useState('')
   const [password, setPassword] = useState('')
   const [loginError, setLoginError] = useState('')
@@ -44,6 +46,7 @@ export default function Login() {
         .then((response) => {
           console.log(response.data)
           setLoginSuccess(true)
+          history.push('/home')
         })
         .catch((error) => {
           console.log(error.response)
