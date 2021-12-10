@@ -25,7 +25,9 @@ USECASE 1,2,3,4 => total SIZE : 46
 ## Sprint2
 
 USECASE 5,6,8 => total SIZE : 19
+
 USECASE 15,10,11,12,16 => total SIZE : 17
+
 USECASE 9,13,14 => total SIZE : 22
 
 ## Sprint2.5
