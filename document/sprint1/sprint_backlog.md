@@ -64,6 +64,8 @@ req - 16 : 서비스 관리를 위해, 관리자는 관리자 계정으로 서�
 | 채희선 | 데이터 생성, Main 페이지 (UC-3) (sub) |
 | 김소현 | 상세 페이지 (UC-4) (main)             |
 
+<img src="../../project/frontend/cau-burger-online-order-system/public/menu.gif" width="70%">
+
 ## UC-3 메뉴 조회
 
 req -3 : 이용자는 어떤 메뉴가 있는지 모르므로 메뉴 조회를 통해 메뉴를 알 수 있고 이를 통해 버거,사이드,디저트 종류를 선택할 수 있다.
