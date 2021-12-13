@@ -230,20 +230,6 @@ USECASE 1,2,3,4 => total SIZE : 46
 
 [Sprint Backlog](https://github.com/hy57in/2021-Industry-Hands-On-Project/blob/main/document/sprint1/sprint_backlog.md)
 
-## Sprint2 => total SIZE : 36
+## Sprint2
 
-USECASE-5,6,7,8 => SIZE : 16 (4+7+4+1)
-
-수령방법 결정, 메뉴 수량 조절, 영업시간, 결제하기
-
-USECASE- 9,10,11,16  => SIZE : 20 (7+1+9+3)
-
-등록메뉴확인,  품절메뉴 가리기,(주문내역/피드백)
-
-
-## Sprint2.5 => total SIZE : 22
-
-USECASE-9,13,14 => SIZE : 22 ( 7+4+11 )
-
-주문내역, 메뉴삭제, 판매내역 
-
+![image](https://user-images.githubusercontent.com/80442377/145847367-d72c27a1-a79a-40e7-923a-31af5709586a.png)
