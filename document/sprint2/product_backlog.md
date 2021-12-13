@@ -4,6 +4,8 @@
 
 ## USECASE
 
+### [USECASE 상세 내용 바로가기](https://github.com/hy57in/2021-Industry-Hands-On-Project/blob/main/document/sprint2/Usecase.md)
+
 ![image](https://user-images.githubusercontent.com/80442377/144810606-443f0729-8cb5-40b8-883b-bb287fce8d67.png)
 
 ## USECASE TraceAbility
