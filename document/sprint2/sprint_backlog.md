@@ -137,12 +137,6 @@ how:
 
 ### sub groub2
 
-## API
-
-[GET /menu?type=@&sort=@](https://clear-magic-8ab.notion.site/menu-type-sort-5fa00e7ae68047c1a542ef59a4913436)  
-
-[GET /menu/:menuID](https://clear-magic-8ab.notion.site/menu-menuID-22f0ee3d7e514dcd9e2fa00934fdf9d8)  
-
 
 진행중 git branch : [subgroup1](https://github.com/hy57in/2021-Industry-Hands-On-Project/tree/subgroup-1/project/frontend/cau-burger-online-order-system)
 
@@ -156,6 +150,12 @@ how:
 | --- | --- |
 | 채희선 | 데이터 생성, Main 페이지 (UC-3)  (sub) |
 | 김소현 | 상세 페이지 (UC-4) (main) |
+
+## API
+
+[GET /menu?type=@&sort=@](https://clear-magic-8ab.notion.site/menu-type-sort-5fa00e7ae68047c1a542ef59a4913436)  
+
+[GET /menu/:menuID](https://clear-magic-8ab.notion.site/menu-menuID-22f0ee3d7e514dcd9e2fa00934fdf9d8)  
 
 
 ## UC-3 메뉴 조회
