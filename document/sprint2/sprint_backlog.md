@@ -160,7 +160,7 @@ how:
 
 진행중 git branch : [subgroup1](https://github.com/hy57in/2021-Industry-Hands-On-Project/tree/subgroup-1/project/frontend/cau-burger-online-order-system)
 
-문제 해결 : UC - 3 : 메뉴조회, UC -4 : 메뉴정보확인
+문제 해결 : UC - 11 : 등록 메뉴 확인, UC -12 : 메뉴 추가, UC -16 : 품절 메뉴 가리기, UC -13 : 메뉴 삭제, UC -14 : 판매 내역
 
 참여 : 조현민, 채희선, 김소현
 
