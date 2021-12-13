@@ -5,6 +5,7 @@
 ## Sprint1 이후의 변경사항
 - 전화번호 삭제 
 - 현장 결제 삭제
+
 [관련 논의](https://github.com/hy57in/2021-Industry-Hands-On-Project/tree/main/document/meeting-logs)
 
 - 메뉴 DB 생성
