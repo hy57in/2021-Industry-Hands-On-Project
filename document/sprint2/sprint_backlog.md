@@ -8,7 +8,15 @@
 
 기간 : 12월 9일 - 12월 17일
 
+## API
+
+[POST /api/order](https://clear-magic-8ab.notion.site/order-e4aeaef009b34f84801c84e5cedb6e84)  
+[GET /api/order](https://clear-magic-8ab.notion.site/order-ee5094eabff04adebe8d296f14c5d6f5)
+[POST /api/like/:orderID](https://clear-magic-8ab.notion.site/like-orderID-a96463824f044a7f8902c4562eceb098)
+[POST /api/dislike/:orderID](https://clear-magic-8ab.notion.site/dislike-orderID-520144daf84149cba0a68f9fe9e82aa2)
+
 ## UC-5 수령방법 결정
+
 what:
 
 - 주문을 기다리지 않기 위해, 이용자는 구매 시 픽업 시간을 설정할 수 있다.
