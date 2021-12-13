@@ -169,9 +169,17 @@ how:
 
 ## API
 
-[POST /admin/menu](https://www.notion.so/admin-menu-8494f1e9277b49cb88ebe3f1b8aa6033)  
+[POST /:userID/pay](https://www.notion.so/API-5bc66f5a4b5d411ca06e28512f0d634d?p=a4fa8b5e3ff64632963d5cd2de494ab7)
 
-[DELETE /admin/menu/:menuID](https://www.notion.so/admin-menu-menuID-e49c6dd685d54adfbd1ec75799647de4)  
+[POST /admin/soldout/:menuID](https://www.notion.so/API-5bc66f5a4b5d411ca06e28512f0d634d?p=4fd7b314a13440bdb5fc3d71a240eb17)
+
+[POST /admin/menu](https://www.notion.so/API-5bc66f5a4b5d411ca06e28512f0d634d?p=8494f1e9277b49cb88ebe3f1b8aa6033)
+
+[DELETE /admin/menu/:menuID](https://www.notion.so/API-5bc66f5a4b5d411ca06e28512f0d634d?p=e49c6dd685d54adfbd1ec75799647de4)
+
+[GET /menu?type=@&sort=@](https://www.notion.so/API-5bc66f5a4b5d411ca06e28512f0d634d?p=5fa00e7ae68047c1a542ef59a4913436)
+
+[GET /menu/:menuID](https://www.notion.so/API-5bc66f5a4b5d411ca06e28512f0d634d?p=22f0ee3d7e514dcd9e2fa00934fdf9d8)
 
 
 ## UC-11 등록 메뉴 확인
