@@ -2,6 +2,20 @@
 
 [Requirement Gathering](document/sprint1/Requirement_gathering.md)
 
+## Sprint1 이후의 변경사항
+- 전화번호 삭제 
+- 현장 결제 삭제
+[관련 논의](https://github.com/hy57in/2021-Industry-Hands-On-Project/tree/main/document/meeting-logs)
+
+- 메뉴 DB 생성
+- 메뉴 조회 API 생성
+(기존)
+Sprint1 에서 카테고리 별 메뉴를 DB에 저장할 때 백엔드와 DB에 대한 설정이 완벽하게 되지 않았다. 
+따라서 Subgroup2에서 메인 메뉴가 얼마 되지 않는다고 판단하여 프론트에 올리고 Subgroup1에서 DB 설계와 백엔드 연결을 확실히 설정하기로 결정하였다.
+
+(수정)
+메뉴의 양이 얼마 되지 않아 프론트에 올려놨지만, Sprint2에서 메뉴를 인기순으로 정렬하거나 좋아요, 싫어요를 누르는 기능은 DB에서의 query가 필요하므로 메뉴 정보를 프론트에서 DB로 옮기기로 하였다.
+
 ## spinrt2 USECASE
 
 ### [sprint2 : USECASE 상세 내용 바로가기](https://github.com/hy57in/2021-Industry-Hands-On-Project/blob/main/document/sprint2/Usecase.md)
