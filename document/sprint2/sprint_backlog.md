@@ -10,6 +10,8 @@
 
 ### 문제 해결
 
+total size : 24
+
 UC-5: 수령방법 결정, UC-6: 메뉴 수량 조절, UC-7: 영업시간, UC-8: 결제하기, UC-9: 주문내역, UC-10: 피드백 남기기
 
 ### 참여
@@ -172,14 +174,23 @@ how:
 
 ## sub groub2
 
+### 진행중 git branch : 
 
-진행중 git branch : [subgroup1](https://github.com/hy57in/2021-Industry-Hands-On-Project/tree/subgroup-1/project/frontend/cau-burger-online-order-system)
+[subgroup1](https://github.com/hy57in/2021-Industry-Hands-On-Project/tree/subgroup-1/project/frontend/cau-burger-online-order-system)
 
-문제 해결 : UC - 11 : 등록 메뉴 확인, UC -12 : 메뉴 추가, UC -16 : 품절 메뉴 가리기, UC -13 : 메뉴 삭제, UC -14 : 판매 내역
+### 문제 해결 : 
 
-참여 : 조현민, 채희선, 김소현
+total size : 35
 
-진행 기간 : 12월 9일 - 12월 17일
+UC - 11 : 등록 메뉴 확인, UC -12 : 메뉴 추가, UC -16 : 품절 메뉴 가리기, UC -13 : 메뉴 삭제, UC -14 : 판매 내역
+
+### 참여 : 
+
+조현민, 채희선, 김소현
+
+### 진행 기간 : 
+
+12월 9일 - 12월 17일
 
 
 ## API
