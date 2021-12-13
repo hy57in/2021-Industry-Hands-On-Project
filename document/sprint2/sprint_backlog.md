@@ -1,14 +1,19 @@
 # Sprint Planning Meeting 
 
-### sub groub1
+## sub groub1
 
-문제 해결 : UC-5: 수령방법 결정, UC-6: 메뉴 수량 조절, UC-7: 영업시간, UC-8: 결제하기, UC-9: 주문내역, UC-10: 피드백 남기기
+### 문제 해결
 
-참여 : 김효진, 정설희
+UC-5: 수령방법 결정, UC-6: 메뉴 수량 조절, UC-7: 영업시간, UC-8: 결제하기, UC-9: 주문내역, UC-10: 피드백 남기기
 
-기간 : 12월 9일 - 12월 17일
+### 참여
 
-## API
+김효진, 정설희
+
+### 기간
+12월 9일 - 12월 17일
+
+### API
 
 [POST /api/order](https://clear-magic-8ab.notion.site/order-e4aeaef009b34f84801c84e5cedb6e84)  
 
@@ -86,7 +91,9 @@ how:
 
 ## UC-9 주문내역
 
-what: 이용자는 주문내역 확인 및 재주문을 위해 자신이 주문 했던 메뉴를 조회할 수 있다.
+what:
+
+이용자는 주문내역 확인 및 재주문을 위해 자신이 주문 했던 메뉴를 조회할 수 있다.
 
 how:
 
@@ -111,7 +118,9 @@ how:
 
 ## UC-10 피드백 남기기
 
-what: 이용자가 주문 했던 메뉴에 좋아요 또는 싫어요를 남길 수 있다.
+what:
+
+이용자가 주문 했던 메뉴에 좋아요 또는 싫어요를 남길 수 있다.
 
 how: 
 
@@ -135,7 +144,7 @@ how:
 | ←4.                  | 특정 주문 내역에 좋아요 또는 싫어요를 할 수 있다.                                                           |
 
 
-### sub groub2
+## sub groub2
 
 
 진행중 git branch : [subgroup1](https://github.com/hy57in/2021-Industry-Hands-On-Project/tree/subgroup-1/project/frontend/cau-burger-online-order-system)
