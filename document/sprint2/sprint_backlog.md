@@ -166,16 +166,12 @@ how:
 
 기간 : 12월 3일 - 12월 8일
 
-| 조현민 | Main 페이지 (UC-3)  (main) |
-| --- | --- |
-| 채희선 | 데이터 생성, Main 페이지 (UC-3)  (sub) |
-| 김소현 | 상세 페이지 (UC-4) (main) |
 
 ## API
 
-[GET /menu?type=@&sort=@](https://clear-magic-8ab.notion.site/menu-type-sort-5fa00e7ae68047c1a542ef59a4913436)  
+[POST /admin/menu](https://www.notion.so/admin-menu-8494f1e9277b49cb88ebe3f1b8aa6033)  
 
-[GET /menu/:menuID](https://clear-magic-8ab.notion.site/menu-menuID-22f0ee3d7e514dcd9e2fa00934fdf9d8)  
+[DELETE /admin/menu/:menuID](https://www.notion.so/admin-menu-menuID-e49c6dd685d54adfbd1ec75799647de4)  
 
 
 ## UC-3 메뉴 조회
