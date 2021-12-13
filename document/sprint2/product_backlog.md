@@ -6,10 +6,10 @@
 
 ### [sprint2 : USECASE 상세 내용 바로가기](https://github.com/hy57in/2021-Industry-Hands-On-Project/blob/main/document/sprint2/Usecase.md)
 
-![image](https://user-images.githubusercontent.com/80442377/144810606-443f0729-8cb5-40b8-883b-bb287fce8d67.png)
-
-
 ## 전체 product backlog 개요
+
+![image](https://user-images.githubusercontent.com/80442377/145846671-06a451db-9ad6-4184-8ed9-bf95ff40222f.png)
+
 
 ### UC -1 : 회원가입
 
