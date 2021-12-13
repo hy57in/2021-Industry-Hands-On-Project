@@ -10,7 +10,7 @@
 
 ## USECASE TraceAbility
 
-![image](https://user-images.githubusercontent.com/80442377/144795004-063b2140-042e-43ab-bf46-237c4ca60bc1.png)
+![image](https://user-images.githubusercontent.com/80442377/145838787-05279126-a200-4463-80af-51dac4cdd80c.png)
 
 ![image](https://user-images.githubusercontent.com/80442377/144797341-d4b36c73-f11c-4e3b-a1dd-a8eb6d6ef80b.png)
 
