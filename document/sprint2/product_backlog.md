@@ -250,6 +250,6 @@ USECASE 1,2,3,4 => total SIZE : 46
 
 [Sprint Backlog](https://github.com/hy57in/2021-Industry-Hands-On-Project/blob/main/document/sprint1/sprint_backlog.md)
 
-## Sprint2
+## Sprint2 => total SIZE : 59
 
-![image](https://user-images.githubusercontent.com/80442377/145847367-d72c27a1-a79a-40e7-923a-31af5709586a.png)
+![image](https://user-images.githubusercontent.com/80442377/145850276-34925a90-83fa-41d1-8573-b55bee20c024.png)
