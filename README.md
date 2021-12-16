@@ -174,9 +174,11 @@ USECASE 1,2,3,4 => total SIZE : 46
 
 회원가입, 로그인, 메뉴조회, 메뉴 정보 확인
 
-[Sprint Backlog](https://github.com/hy57in/2021-Industry-Hands-On-Project/blob/main/document/sprint1/sprint_backlog.md)
+[sprint1](https://github.com/hy57in/2021-Industry-Hands-On-Project/tree/main/document/sprint1)
 
 ## Sprint2 => total SIZE : 59
 
 ![image](https://user-images.githubusercontent.com/80442377/146413904-3c7374dc-fa4e-4d3a-ac1b-9144853933bd.png)
+
+[sprint2](https://github.com/hy57in/2021-Industry-Hands-On-Project/tree/main/document/sprint2)
 
