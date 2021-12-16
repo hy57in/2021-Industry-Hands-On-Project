@@ -2,7 +2,7 @@
 
 [Requirement Gathering](document/sprint1/Requirement_gathering.md)
 
-## Sprint1 이후의 변경사항
+## Sprint1 이후의 product backlog update 된 
 - 전화번호 삭제 
 - 현장 결제 삭제
 
