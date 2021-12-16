@@ -429,7 +429,6 @@ how:
 
 
 ### Test Case 5
-
 | Test-Case Identifier | TC - 5 |
 | --- | --- |
 | Use Case Tested | UC-3(메뉴조회), UC-4(메뉴정보확인) |
