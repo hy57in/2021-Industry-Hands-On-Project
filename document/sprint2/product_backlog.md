@@ -145,7 +145,6 @@ related requirements
 Dod
 
 - 이용자가 주문 했던 메뉴를 조회할 수 있다.
-- 주문하기 버튼을 누르면 장바구니에 담겨야 한다.
 
 related requirements
 
