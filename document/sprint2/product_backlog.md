@@ -28,7 +28,7 @@ Sprint1 에서 카테고리 별 메뉴를 DB에 저장할 때 백엔드와 DB에
 
 ## 전체 product backlog 개요
 
-![image](https://user-images.githubusercontent.com/80442377/145846671-06a451db-9ad6-4184-8ed9-bf95ff40222f.png)
+![image](https://user-images.githubusercontent.com/80442377/146413460-a2fbb5fa-39b1-4efe-9948-4dc3d1e5ca0f.png)
 
 
 ### UC -1 : 회원가입
