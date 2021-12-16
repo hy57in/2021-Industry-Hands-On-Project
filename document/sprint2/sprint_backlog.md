@@ -426,6 +426,34 @@ how:
 | 2. | 이용자가 계정의 id와 비밀번호를 입력하면, 유저 DB에 저장된 내용과 비교하여 일치하면 로그인이 된다. |
 
 
+### Test Case 3
+
+
+| Test-Case Identifier | TC-3 |
+| --- | --- |
+| Use Case Tested | UC-9(주문내역) ,UC-14(판매내역 업뎃), UC-15(판매내역) |
+| Pass / Fail Criteria | 관리자가 판매 내역을 업데이트한 후 이용자가 피드백을 남길 수 있으면 pass |
+| Test Procedure |  |
+| 1. | 관리자가 판매 내역에서 판매 완료 상태가 아닌 내역의 '완료' 버튼을 누른다. |
+| 2. | 이용자가 해당 주문 내역이 완료 상태로 전환됐음을 확인한다. |
+| Expected Result |  |
+| 1. | 해당 주문의 상태가 완료로 변경된다. |
+| 2. | 이용자가 해당 주문에 대한 피드백을 남길 수 있게 된다. |
+
+
+## Test Case 4
+
+
+| Test-Case Identifier | TC-4 |
+| --- | --- |
+| Use Case Tested | UC-9(주문내역) ,UC-10(피드백남기기), UC-15(판매내역) |
+| Pass / Fail Criteria | 이용자가 주문 했던 메뉴에 대한 피드백이 DB에 반영되면 pass |
+| Test Procedure |  |
+| 1. | 이용자가 주문 내역에서 좋아요를 남긴다. |
+| 2. | 이용자가 해당 주문의 피드백을 좋아요에서 싫어요로 변경한다 |
+| Expected Result |  |
+| 1. | 메뉴 DB에서 메뉴의 Like 속성의 value가 한 번 증가한다 |
+| 2. | 메뉴 DB에서 메뉴의 Like 속성의 value가 두 번 감소한다. |
 
 
 ### Test Case 5
